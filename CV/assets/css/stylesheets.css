@@ -13,41 +13,50 @@
 
 body {
     background-color: var(--background-color);
-    padding: 5em;
     cursor: url('../img/cursors/cursor-default.gif'), wait;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    position: fixed;
+    top: 5%;
+    left: 45%;
+    z-index: 2;
 }
 
 nav {
     position: absolute;
-    top: 16px;
-    left: 16px;
+    top: 5%;
+    right: 16px;
     color: white;
     border: var(--columns-border-right);
 }
 
-nav i {
+nav .buttons i {
     border-radius: 6px;
     padding: 12px;
     margin: 6px;
 }
 
-nav i:first-child {
+nav .buttons i:first-child {
     background: var(--page-background);
 }
 
-nav i:last-child {
+nav .buttons i:last-child {
     background: var(--page-background-clean);
 }
 
-nav i:hover {
+nav .buttons i:hover {
     opacity: .4;
     cursor: url('../img/cursors/cursor-hover.png'), auto;
 }
 
 main {
     margin: auto;
-    padding: 1.5cm;
-    height: 29.7cm;
+    padding: 1cm;
+    size: A4;
     width: 21cm;
     border-radius: var(--default-radius);
 }
