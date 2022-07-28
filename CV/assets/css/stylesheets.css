@@ -13,10 +13,13 @@
 
 body {
     background-color: var(--background-color);
-    cursor: url('../img/cursors/cursor-default.gif'), wait;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    cursor: url('../img/cursors/cursor-default.gif'), default;
+}
+
+@media (min-width: 900px) {
+    body {
+        padding: 1.5cm;
+    }
 }
 
 .loader {
@@ -32,6 +35,13 @@ nav {
     right: 16px;
     color: white;
     border: var(--columns-border-right);
+    display: none;
+}
+
+@media (min-width: 1060px) {
+    nav {
+        display: unset;
+    }
 }
 
 nav .buttons i {
@@ -55,9 +65,11 @@ nav .buttons i:hover {
 
 main {
     margin: auto;
-    padding: 1cm;
-    size: A4;
-    width: 21cm;
+    padding: 1.5cm;
+    /*size: A4;
+    width: 21cm;*/
+    height: 1122.5204px;
+    width: 793.7013px;
     border-radius: var(--default-radius);
 }
 
