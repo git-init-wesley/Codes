@@ -7,26 +7,26 @@
     filter: var(--shadows);
     -webkit-transition: .3s linear;
     -ms-transition: .3s linear;
-    transition: .3s linear
+    transition: .3s linear;
 }
 
 body {
-    background-color: var(--background-color);
-    cursor: url('../img/cursors/cursor-default.gif'), default
+    background: var(--background-color);
+    cursor: url('../img/cursors/cursor-default.gif'), default;
 }
 
 .loader {
     position: fixed;
     top: 250px;
     right: 80px;
-    z-index: 2
+    z-index: 2;
 }
 
 main {
     margin: auto;
     padding: 1.5cm;
     height: 1122.5204px;
-    width: 793.7013px
+    width: 793.7013px;
 }
 
 @media (min-width: 900px) {

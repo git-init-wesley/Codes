@@ -1,29 +1,29 @@
 .header .title {
-    font-size: 1.4cm;
+    font-size: 52px;
 }
 
 .header .subtitle {
-    font-size: .55cm;
+    font-size: 18px;
 }
 
 .container .title {
-    font-size: .6cm;
+    font-size: 24px;
 }
 
 .column-left .description, .container .content {
-    font-size: .39cm;
+    font-size: 14px;
 }
 
 .element .title {
-    font-size: .4cm !important;
+    font-size: 14px !important;
 }
 
 .element .subtitle {
-    font-size: .31cm !important;
+    font-size: 12px !important;
     font-style: italic;
     font-weight: lighter !important;
 }
 
 .element .content {
-    font-size: .31cm !important;
+    font-size: 12px !important;
 }
