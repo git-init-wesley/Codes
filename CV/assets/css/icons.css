@@ -1,0 +1,35 @@
+i.fa-html5 {
+    color: coral;
+}
+
+i.fa-css3-alt {
+    color: cornflowerblue;
+}
+
+i.fa-js-square {
+    color: darkgoldenrod;
+}
+
+i.fa-swift {
+    color: darkorange;
+}
+
+i.fa-python {
+    color: floralwhite;
+    background: linear-gradient(135deg, rgb(0, 119, 255), rgb(255, 223, 0));
+    border-radius: 6px;
+}
+
+i.fa-php {
+    color: dodgerblue;
+}
+
+i.fa-java {
+    color: crimson;
+    font-weight: bold;
+}
+
+i.fa-react {
+    color: #22ADD4;
+    font-weight: bolder;
+}

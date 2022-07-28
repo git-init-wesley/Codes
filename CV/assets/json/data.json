@@ -1,0 +1,54 @@
+{
+  "header-subtitle-1": "Développeur Autodidacte",
+  "header-subtitle-2": "{AGE} ans - Permis B",
+  "temps": "Contrat d’apprentissage - Rythme : 3 semaines en entreprise / 1 semaine en école \nFormation éligible à l’Aide Exceptionnelle de 8000€",
+  "column-left-description": "Autonome, dynamique et motivé, je suis à la recherche d'une nouvelle expérience professionnelle afin de développer davantage mes compétences.",
+  "skills": [
+    "Développement Web",
+    "Développement Mobile",
+    "Développement Desktop",
+    "Analyse structurelle",
+    "Architecture MVC",
+    "Méthodologie Agile",
+    "Maîtrise des Outils (Git, Jira, IDE, ...)",
+    "Résolutation de problèmes",
+    "Français / Anglais"
+  ],
+  "techniques": [
+    "html5",
+    "css3",
+    "js",
+    "typescript",
+    "php",
+    "python",
+    "swift",
+    "java",
+    "dart",
+    "flutter",
+    "react",
+    "sql",
+    "redis",
+    "mongo-db",
+    "firebase",
+    "android",
+    "ios",
+    "desktop"
+  ],
+  "hobbies": [
+    "Informatique",
+    "Programmation",
+    "Technologie",
+    "Lecture",
+    "Manga",
+    "Musique",
+    "Paysage",
+    "Montagne"
+  ],
+  "contact": {
+    "mail": "mailpro.levasseur@icloud.com",
+    "phone": "(+33) 6 98 59 41 80",
+    "github": "kanekireal",
+    "linkedin": "wesley-levasseur-b3a506211",
+    "address": "1 Place du Dr Guersant, CCAS AULNOYE-AYMERIES, FRANCE, 59620"
+  }
+}

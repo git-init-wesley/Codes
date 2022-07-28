@@ -1,0 +1,34 @@
+{
+  "name": "CV",
+  "short_name": "CV",
+  "description": "My CV.",
+  "author": "Wesley LEVASSEUR",
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "3wa",
+    "project"
+  ],
+  "license": "CC-BY-NC-ND 4.0",
+  "start_url": "index.html",
+  "display": "minimal-ui",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "assets/img/icons.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/cursor-default.gif",
+      "sizes": "32x32",
+      "type": "image/gif"
+    },
+    {
+      "src": "assets/img/cursor-hover.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}

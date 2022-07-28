@@ -1,0 +1,29 @@
+.header .title {
+    font-size: 1.4cm;
+}
+
+.header .subtitle {
+    font-size: .55cm;
+}
+
+.container .title {
+    font-size: .6cm;
+}
+
+.column-left .description, .container .content {
+    font-size: .39cm;
+}
+
+.element .title {
+    font-size: .4cm !important;
+}
+
+.element .subtitle {
+    font-size: .31cm !important;
+    font-style: italic;
+    font-weight: lighter !important;
+}
+
+.element .content {
+    font-size: .31cm !important;
+}
