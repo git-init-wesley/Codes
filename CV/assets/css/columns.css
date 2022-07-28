@@ -19,7 +19,7 @@
 .columns .column-right {
     border-radius: 0 12px 12px 0;
     width: 100%;
-    border-left: var(--columns-border-right);
+    margin: auto;
     border-top: var(--columns-border-right);
     border-right: var(--columns-border-right);
     border-bottom: var(--columns-border-right);
@@ -69,6 +69,7 @@
 
 .element .head-element {
     margin: var(--default-margin) !important;
+    text-transform: uppercase;
 }
 
 .element .content {

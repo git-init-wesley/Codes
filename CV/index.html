@@ -23,7 +23,7 @@
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet"/>
+    <link href="assets/css/main.min.css" rel="stylesheet"/>
 
 </head>
 <body>
@@ -43,14 +43,14 @@
 
 <nav class="navigation">
     <div class="buttons themes">
-        <i class="fa-solid fa-1" id="noclean"></i>
-        <i class="fa-solid fa-2" id="clean"></i>
-        <i class="fa-solid fa-3 features"></i>
+        <i class="fa-solid fa" id="noclean"></i>
+        <i class="fa-solid fa" id="clean"></i>
+        <i class="fa-solid fa features"></i>
     </div>
     <div class="spacer"></div>
     <div class="buttons">
         <p>
-            <a download href="assets/downloads/cv.pdf" id="download">Télécharger</a>
+            <a download href="assets/downloads/cv.pdf" target="_blank" id="download">Télécharger</a>
         </p>
     </div>
 </nav>
@@ -66,7 +66,7 @@
             <figure><img alt="icons" src="assets/img/icons.png"/></figure>
         </article>
 
-        <article class="temps">Chargement..</article>
+        <article class="temps">Chargement...</article>
 
         <article class="columns">
             <div class="column-left">
@@ -115,40 +115,14 @@
             </div>
             <div class="column-right">
 
-                <div class="container">
-
+                <div class="container" id="experiences">
                     <h1 class="title">Expériences</h1>
+                    <!-- Chargement... -->
+                </div>
 
-                    <div class="element">
-                        <div class="head-element">
-                            <h1 class="title">Développeur Full-Stack</h1>
-                            <h2 class="subtitle">3W Academy | Lille | 2022</h2>
-                        </div>
-                        <div class="content">
-                            <ul no-style="false">
-                                <li>
-                                    Spécialisation React.js
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
+                <div class="container" id="formations">
                     <h1 class="title">Formations</h1>
-
-                    <div class="element">
-                        <div class="head-element">
-                            <h1 class="title">Développeur Full-Stack</h1>
-                            <h2 class="subtitle">3W Academy | Lille | 2022</h2>
-                        </div>
-                        <div class="content">
-                            <ul no-style="false">
-                                <li>
-                                    Spécialisation React.js
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
+                    <!-- Chargement... -->
                 </div>
 
             </div>
@@ -156,6 +130,7 @@
     </section>
 </main>
 
+<!-- ========================= JavaScript ========================= -->
 <script crossorigin="anonymous" src="https://kit.fontawesome.com/51088472f4.js"></script>
 <script src="assets/js/utils.min.js"></script>
 <script src="assets/js/script.min.js"></script>

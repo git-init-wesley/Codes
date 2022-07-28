@@ -53,7 +53,7 @@
     opacity: .4;
 }
 
-.navigation .buttons i:hover, .navigation .buttons p:hover {
+.navigation .buttons i:hover, .navigation .buttons p:hover, .navigation .buttons a:hover {
     opacity: .4;
     cursor: url('../img/cursors/cursor-hover.png'), auto;
 }
