@@ -53,7 +53,17 @@
     opacity: .4;
 }
 
-.navigation .buttons i:hover, .navigation .buttons p:hover, .navigation .buttons a:hover {
+.navigation .buttons img {
+    margin: auto;
+    border-radius: var(--default-radius);
+    height: 22px;
+}
+
+.navigation .buttons #english {
+    background: var(--page-background-clean);
+}
+
+.navigation .buttons i:hover, .navigation .buttons p:hover, .navigation .buttons a:hover, .navigation .buttons img:hover {
     opacity: .4;
     cursor: url('../img/cursors/cursor-hover.png'), auto;
 }

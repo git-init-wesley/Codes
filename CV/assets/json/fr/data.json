@@ -1,0 +1,113 @@
+{
+  "header-subtitle-1": "Développeur Autodidacte",
+  "header-subtitle-2": "{AGE} ans - Permis B",
+  "temps": "Contrat d’apprentissage - Rythme : 3 semaines en entreprise / 1 semaine en école \nFormation éligible à l’Aide Exceptionnelle de 8000€",
+  "column-left-description": "Autonome, dynamique et motivé, je suis à la recherche d'une nouvelle expérience professionnelle afin de développer davantage mes compétences.",
+  "column-experiences": [
+    {
+      "title": "Freelance / Autodidacte",
+      "subtitle": "2013 - 2022",
+      "content": [
+        "Création d'application dans le Store",
+        "Création de sites et de logiciels",
+        "Utiliser et maîtriser l'outils Figma",
+        "Initiation aux outils numérique collectif (Github, GitKraken, Jetbrains et Jira, ...)",
+        "Initiation au desktop (SQL, Redis, MongoDB, Flutter)",
+        "Initiation au mobile (Swift, Java, Kotlin, Firebase)",
+        "Initiation au web (HTML, CSS, JS, PHP, SQL)",
+        "Initiation au base (Python)"
+      ]
+    },
+    {
+      "title": "Technicien informatique",
+      "subtitle": "UTIL | Anzin | Février 2019",
+      "content": [
+        "Visualiser et pratiquer dans les baies",
+        "Utilisation et configuration de Switch",
+        "Utilisation et configuration de pfSense"
+      ]
+    }
+  ],
+  "column-formations": [
+    {
+      "title": "Développeur Full-Stack",
+      "subtitle": "3W Academy | Lille | 2022-2023",
+      "content": [
+        "Spécialisation React.js",
+        "Spécialisation Symfony"
+      ]
+    },
+    {
+      "title": "Chaudron",
+      "subtitle": "3W Academy | Lille | Juillet 2022",
+      "content": [
+        "Certification Tosa PHP Avancé (767/1000)",
+        "Intégration web (HTML5 / CSS3 / JS)"
+      ]
+    },
+    {
+      "title": "Brevet des collèges",
+      "subtitle": "Felix Del Marle | Aulnoye | 2014-2019",
+      "content": [
+        "Mention \"Très bien\""
+      ]
+    }
+  ],
+  "skills": [
+    "Développement Web",
+    "Développement Mobile",
+    "Développement Desktop",
+    "Analyse structurelle",
+    "Architecture MVC",
+    "Méthodologie Agile",
+    "Maîtrise des Outils (Git, Jira, IDE, ...)",
+    "Résolutation de problèmes",
+    "Français / Anglais"
+  ],
+  "techniques": [
+    "html5",
+    "css3",
+    "js",
+    "typescript",
+    "php",
+    "python",
+    "swift",
+    "java",
+    "dart",
+    "flutter",
+    "react",
+    "sql",
+    "redis",
+    "mongo-db",
+    "firebase",
+    "android",
+    "ios",
+    "desktop"
+  ],
+  "hobbies": [
+    "Informatique",
+    "Programmation",
+    "Technologie",
+    "Lecture",
+    "Manga",
+    "Musique",
+    "Paysage",
+    "Montagne"
+  ],
+  "contact": {
+    "mail": "mailpro.levasseur@icloud.com",
+    "phone": "(+33) 6 98 59 41 80",
+    "github": "kanekireal",
+    "linkedin": "wesley-levasseur-b3a506211",
+    "address": "1 Place du Dr Guersant, CCAS AULNOYE-AYMERIES, FRANCE, 59620"
+  },
+  "language": {
+    "download": "Télécharger",
+    "skills": "Compétences",
+    "techniques": "Techniques",
+    "hobbies": "Centres d'intérêt",
+    "contact": "Contact",
+    "experiences": "Expériences",
+    "formations": "Formations"
+  }
+}

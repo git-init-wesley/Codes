@@ -100,5 +100,14 @@
     "github": "kanekireal",
     "linkedin": "wesley-levasseur-b3a506211",
     "address": "1 Place du Dr Guersant, CCAS AULNOYE-AYMERIES, FRANCE, 59620"
+  },
+  "language": {
+    "download": "Télécharger",
+    "skills": "Compétences",
+    "techniques": "Techniques",
+    "hobbies": "Centres d'intérêt",
+    "contact": "Contact",
+    "experiences": "Expériences",
+    "formations": "Formations"
   }
 }
