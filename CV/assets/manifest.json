@@ -12,8 +12,8 @@
     "project"
   ],
   "license": "CC-BY-NC-ND 4.0",
-  "start_url": "index.html",
-  "display": "minimal-ui",
+  "start_url": "../",
+  "display": "standalone",
   "lang": "fr",
   "icons": [
     {
@@ -31,5 +31,5 @@
       "sizes": "32x32",
       "type": "image/png"
     }
-  ],
+  ]
 }
