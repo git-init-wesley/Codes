@@ -18,7 +18,7 @@
   "icons": [
     {
       "src": "assets/img/icons.png",
-      "sizes": "150x150",
+      "sizes": "200x200",
       "type": "image/png"
     },
     {
@@ -32,10 +32,4 @@
       "type": "image/png"
     }
   ],
-  "background": {
-    "scripts": [
-      "utils.min.js",
-      "main.min.js"
-    ]
-  }
 }
