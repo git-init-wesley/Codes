@@ -12,7 +12,7 @@
 
 body {
     background: var(--background-color);
-    cursor: url('../img/cursors/cursor-default.gif'), default;
+    cursor: url('../img/cursors/cursor-default.png'), default;
 }
 
 .loader {
