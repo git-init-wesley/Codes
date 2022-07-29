@@ -14,6 +14,12 @@
     font-size: 14px;
 }
 
+.container .content img {
+    height: 12px;
+    width: 12px;
+    margin-right: 2px;
+}
+
 .element .title {
     font-size: 14px !important;
 }

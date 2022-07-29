@@ -2,13 +2,33 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>/</loc>
-        <lastmod>2022-07-28T12:00:00+00:00</lastmod>
+        <loc>https://kanekireal.github.io/Codes/CV/</loc>
+        <lastmod>2022-07-28T22:54:29+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>assets/json/data.json</loc>
-        <lastmod>2022-07-28T12:00:00+00:00</lastmod>
+        <loc>https://kanekireal.github.io/Codes/CV/?theme=clean</loc>
+        <lastmod>2022-07-28T22:54:29+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://kanekireal.github.io/Codes/CV/assets/img/icons.png</loc>
+        <lastmod>2022-07-28T22:54:29+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://kanekireal.github.io/Codes/CV/assets/json/data.json</loc>
+        <lastmod>2022-07-28T22:54:29+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://kanekireal.github.io/Codes/CV/assets/download/cv.pdf</loc>
+        <lastmod>2022-07-28T22:54:29+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://kanekireal.github.io/Codes/CV/assets/download/cv-clean.pdf</loc>
+        <lastmod>2022-07-28T22:54:29+00:00</lastmod>
         <priority>0.80</priority>
     </url>
 </urlset>
