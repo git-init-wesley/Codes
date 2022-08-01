@@ -49,8 +49,8 @@ const langageExperiences = document.querySelector('#langage-experiences')
 const langageFormation = document.querySelector('#langage-formations')
 
 const birthdays = new Date('06/08/2003')
-const nowDate = new Date()
-const age = (nowDate.getFullYear() - birthdays.getFullYear()) - (nowDate.getMonth() < nowDate.getMonth() ? 1 : nowDate.getDate() < birthdays.getDate() ? 1 : 0)
+const nowDate = new Date(Date.now())
+const age = (nowDate.getFullYear() - birthdays.getFullYear()) - (nowDate.getMonth() < birthdays.getMonth() || nowDate.getMonth() === birthdays.getMonth() && nowDate.getDate() < birthdays.getDate() ? 1 : 0)
 
 const acceptedLangs = ['fr', 'en'];
 // noinspection ES6ConvertVarToLetConst
