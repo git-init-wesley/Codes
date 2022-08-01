@@ -7,45 +7,48 @@
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
 
     <!-- ========================= General ========================= -->
-    <title>Wesley LEVASSEUR | CV</title>
+    <title>Wesley Levasseur | CV</title>
     <meta content="html5, css3, js, typescript, php, python, swift, java, dart, flutter, react, sql, redis, mongo, db, firebase, android, ios, desktop"
           property="keywords"/>
-    <meta content="Wesley LEVASSEUR" property="author"/>
-    <meta content="This site allows you to view my CV and download it, several themes are available."
+    <meta content="Wesley Levasseur" property="author"/>
+    <meta content="Ce site vous permet de visualiser mon CV et de le télécharger, plusieurs thèmes et langues sont disponibles."
           property="description"/>
 
     <!-- ========================= OG ========================= -->
-    <meta content="Wesley LEVASSEUR | CV" property="og:title"/>
-    <meta content="Wesley LEVASSEUR | CV" property="og:site_name"/>
-    <meta content="siteweb" property="og:type"/>
-    <meta content="en_EN" property="og:local"/>
+    <meta content="Wesley Levasseur | CV" property="og:title"/>
+    <meta content="Wesley Levasseur | CV" property="og:site_name"/>
+    <meta content="website" property="og:type"/>
+    <meta content="fr_FR" property="og:local"/>
+    <meta content="Icons" property="og:image:alt"/>
     <meta content="https://kanekireal.github.io/Codes/CV" property="og:url"/>
-    <meta content="assets/img/icons.png" property="og:image"/>
-    <meta content="This site allows you to view my CV and download it, several themes are available."
+    <meta content="./assets/img/japan.jpg" property="og:image"/>
+    <meta content="Ce site vous permet de visualiser mon CV et de le télécharger, plusieurs thèmes et langues sont disponibles."
           property="og:description"/>
 
     <!-- ========================= Twitter ========================= -->
     <meta content="summary" name="twitter:card"/>
+    <meta content="Wesley Levasseur | CV" name="twitter:title"/>
     <meta content="@kanekireal" name="twitter:site"/>
-    <meta content="This site allows you to view my CV and download it, several themes are available."
+    <meta content="https://kanekireal.github.io/Codes/CV" property="twitter:url"/>
+    <meta content="Ce site vous permet de visualiser mon CV et de le télécharger, plusieurs thèmes et langues sont disponibles."
           name="twitter:description"/>
-    <meta content="assets/img/icons.png" property="twitter:image"/>
+    <meta content="./assets/img/japan.jpg" property="twitter:image"/>
     <meta content="@kanekireal" name="twitter:creator"/>
 
     <!-- ========================= FavIcons ========================= -->
-    <link href="assets/img/icons.png" rel="icon"/>
-    <link href="assets/img/icons.png" rel="apple-touch-icon"/>
+    <link href="./assets/img/icons.png" rel="icon"/>
+    <link href="./assets/img/icons.png" rel="apple-touch-icon"/>
 
     <!-- ========================= Manifest ========================= -->
-    <link href="manifest.min.json" rel="manifest"/>
+    <link href="./manifest.min.json" rel="manifest"/>
 
     <!-- ========================= CSS Files ========================= -->
     <link as="font" crossorigin href="assets/fonts/Poppins.ttf" rel="preload" type="font/ttf"/>
-    <link href="assets/css/main.min.css" rel="stylesheet"/>
-    <link href="assets/fonts/Poppins.min.css" rel="stylesheet"/>
+    <link href="./assets/css/main.css" rel="stylesheet"/>
+    <link href="./assets/fonts/Poppins.min.css" rel="stylesheet"/>
 
 </head>
-<body>
+<body lang="fr" theme="default">
 
 <!-- ========================= Loader Start ========================= -->
 <div class="loader">
@@ -65,25 +68,32 @@
 <!-- ========================= Nav Start ========================= -->
 <nav class="navigation">
     <div class="buttons themes">
-        <i id="noclean"></i>
-        <i id="clean"></i>
-        <i class="features"></i>
+        <i id="default-theme"></i>
+        <i class="selected" id="theme-selected"></i>
+        <i id="clean-theme"></i>
     </div>
     <div class="buttons themes">
-        <img alt="french-flag" id="french" src="https://cdn-icons-png.flaticon.com/512/299/299753.png"/>
-        <img alt="english-flag" id="english" src="https://cdn-icons-png.flaticon.com/512/197/197374.png"/>
-        <i class="features"></i>
+        <img alt="french-flag" height="22px" id="french-button"
+             src="https://cdn-icons-png.flaticon.com/512/299/299753.png"
+             width="22px"/>
+        <img alt="selected-flag" class="selected" height="22px" id="lang-selected"
+             src="https://cdn-icons-png.flaticon.com/512/299/299753.png"
+             width="22px"/>
+        <img alt="english-flag" height="22px" id="english-button"
+             src="https://cdn-icons-png.flaticon.com/512/197/197374.png"
+             width="22px"/>
     </div>
     <div class="spacer"></div>
     <div class="buttons">
-        <a download href="assets/download/cv.pdf" id="download" target="_blank"><p id="langage-download">...</p>
+        <a download href="assets/download/fr/DEFAULT%20-%20CV%20-%20Wesley%20LEVASSEUR.pdf" id="download-button"
+           target="_blank"><p id="langage-download">...</p>
         </a>
     </div>
 </nav>
 <!-- ========================= Nav End ========================= -->
 
 
-<main clean="false">
+<main>
     <section>
 
         <!-- ========================= Header Start ========================= -->
@@ -91,7 +101,7 @@
             <div>
                 <h1 class="title">LEVASSEUR WESLEY</h1>
                 <p class="subtitle" id="headerSubtitle1">...</p>
-                <p class="subtitle" id="headerSubtitle2">...</p></div>
+                <p class="subtitle" id="headerSubtitle2">...</p>
             </div>
             <figure><img alt="icons" src="assets/img/icons.png"/></figure>
         </article>
@@ -186,8 +196,8 @@
 
 <!-- ========================= JavaScript ========================= -->
 <script crossorigin="anonymous" src="https://kit.fontawesome.com/51088472f4.js"></script>
-<script src="assets/js/utils.min.js"></script>
-<script src="assets/js/script.min.js"></script>
+<script src="assets/js/utils.js"></script>
+<script src="assets/js/script.js"></script>
 
 </body>
 </html>

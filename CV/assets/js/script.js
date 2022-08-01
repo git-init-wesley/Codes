@@ -1,24 +1,20 @@
-noclean.addEventListener('click', (_) => {
-    main.setAttribute('clean', 'false')
-    download.href = 'assets/download/cv.pdf'
+defaultTheme.addEventListener('click', (_) => {
+    changeTheme('default')
 })
 
-clean.addEventListener('click', (_) => {
-    main.setAttribute('clean', 'true')
-    download.href = 'assets/download/cv-clean.pdf'
+cleanTheme.addEventListener('click', (_) => {
+    changeTheme('clean')
 })
 
-french.addEventListener('click', (_) => {
-    fetchData('fr')
+frenchButton.addEventListener('click', (_) => {
+    changeLang('fr')
 })
 
-english.addEventListener('click', (_) => {
-    fetchData('en')
+englishButton.addEventListener('click', (_) => {
+    changeLang('en')
 })
 
-if (urlParams['theme'] === 'clean') {
-    main.setAttribute('clean', 'true')
-    download.href = 'assets/download/cv-clean.pdf'
-}
+changeLang(currentLang)
+changeTheme(currentTheme)
 
-fetchData(lang)
+fetchData(currentLang)

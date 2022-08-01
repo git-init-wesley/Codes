@@ -1,19 +1,25 @@
 // noinspection JSValidateTypes
 /* ========================= CONST Start ========================= */
 
+const FRENCH_FLAG_URL = 'https://cdn-icons-png.flaticon.com/512/299/299753.png'
+const ENGLISH_FLAG_URL = 'https://cdn-icons-png.flaticon.com/512/197/197374.png'
+
 const urlSearchParams = new URLSearchParams(window.location.search)
 const urlParams = Object.fromEntries(urlSearchParams.entries())
 
+const body = document.querySelector('body')
 const main = document.querySelector('main')
 
-const noclean = document.querySelector('.navigation .buttons #noclean')
-const clean = document.querySelector('.navigation .buttons #clean')
+const defaultTheme = document.querySelector('.navigation .buttons #default-theme')
+const cleanTheme = document.querySelector('.navigation .buttons #clean-theme')
 
-const french = document.querySelector('.navigation .buttons #french')
-const english = document.querySelector('.navigation .buttons #english')
+const selectedLang = document.querySelector('.navigation .buttons #lang-selected')
+
+const frenchButton = document.querySelector('.navigation .buttons #french-button')
+const englishButton = document.querySelector('.navigation .buttons #english-button')
 
 const ldsRoller = document.querySelector('.loader .lds-roller')
-const download = document.querySelector('.navigation .buttons #download')
+const downloadButton = document.querySelector('.navigation .buttons #download-button')
 
 const headerSubtitle1 = document.querySelector('.header .subtitle#headerSubtitle1')
 const headerSubtitle2 = document.querySelector('.header .subtitle#headerSubtitle2')
@@ -34,12 +40,6 @@ const contactGithub = document.querySelector('#contact #github')
 const contactLinkedin = document.querySelector('#contact #linkedin')
 const contactAddress = document.querySelector('#contact #address')
 
-const birthdays = new Date('06/08/2003')
-const nowDate = new Date()
-const age = (nowDate.getFullYear() - birthdays.getFullYear()) - (nowDate.getMonth() < nowDate.getMonth() ? 1 : nowDate.getDate() < birthdays.getDate() ? 1 : 0)
-
-const lang = urlParams['lang'] ? urlParams['lang'] : 'fr'
-
 const langageDownload = document.querySelector('#langage-download')
 const langageSkills = document.querySelector('#langage-skills')
 const langageTechniques = document.querySelector('#langage-techniques')
@@ -48,6 +48,17 @@ const langageContact = document.querySelector('#langage-contact')
 const langageExperiences = document.querySelector('#langage-experiences')
 const langageFormation = document.querySelector('#langage-formations')
 
+const birthdays = new Date('06/08/2003')
+const nowDate = new Date()
+const age = (nowDate.getFullYear() - birthdays.getFullYear()) - (nowDate.getMonth() < nowDate.getMonth() ? 1 : nowDate.getDate() < birthdays.getDate() ? 1 : 0)
+
+const acceptedLangs = ['fr', 'en'];
+// noinspection ES6ConvertVarToLetConst
+var currentLang = urlParams['lang'] && acceptedLangs.find(e => e === urlParams['lang'].toLowerCase()) ? urlParams['lang'].toLowerCase() : 'fr'
+
+const acceptedThemes = ['default', 'clean'];
+// noinspection ES6ConvertVarToLetConst
+var currentTheme = urlParams['theme'] && acceptedThemes.find(e => e === urlParams['theme'].toLowerCase()) ? urlParams['theme'].toLowerCase() : 'default'
 /* ========================= CONST End ========================= */
 
 /* ========================= Function Start ========================= */
@@ -148,6 +159,31 @@ const loadDataJson = (json) => {
     langageFormation.textContent = json['language']['formations']
 
     ldsRoller.setAttribute('loading', 'false')
+}
+
+const updateDownloadHref = () => {
+    downloadButton.href = `assets/download/${currentLang}/${currentTheme.toUpperCase()} - CV - Wesley LEVASSEUR.pdf`
+}
+
+const changeTheme = (theme) => {
+    body.setAttribute('theme', theme)
+    currentTheme = theme
+    updateDownloadHref()
+}
+
+const changeLang = (lang) => {
+    body.setAttribute('lang', lang)
+    currentLang = lang
+    switch (currentLang) {
+        case 'en':
+            selectedLang.src = ENGLISH_FLAG_URL
+            break
+        default:
+            selectedLang.src = FRENCH_FLAG_URL
+            break
+    }
+    updateDownloadHref()
+    fetchData(lang)
 }
 
 const fetchData = (lang) => {

@@ -44,23 +44,28 @@
     background: var(--page-background);
 }
 
-.navigation .buttons i:nth-child(2) {
-    background: var(--page-background-clean);
+body[theme='default'] .navigation .buttons #theme-selected {
+    background: var(--page-background) !important;
+}
+
+body[theme='clean'] .navigation .buttons #theme-selected {
+    background: var(--page-background-clean) !important;
 }
 
 .navigation .buttons i:nth-child(3) {
-    background: var(--page-background-features);
-    opacity: .4;
+    background: var(--page-background-clean);
+}
+
+.navigation .buttons .selected {
+    box-sizing: content-box;
+    border: 2px dotted rgba(255, 255, 255, 0.41);
 }
 
 .navigation .buttons img {
     margin: auto;
     border-radius: var(--default-radius);
     height: 22px;
-}
-
-.navigation .buttons #english {
-    background: var(--page-background-clean);
+    width: 22px;
 }
 
 .navigation .buttons i:hover, .navigation .buttons p:hover, .navigation .buttons a:hover, .navigation .buttons img:hover {
@@ -68,6 +73,11 @@
     cursor: url('../img/cursors/cursor-hover.png'), auto;
 }
 
-.navigation .buttons i.features {
+.navigation .buttons i:hover.selected, .navigation .buttons img:hover.selected {
+    opacity: initial !important;
+    cursor: url('../img/cursors/cursor-default.png'), default !important;
+}
+
+.navigation .buttons i.selected {
     cursor: url('../img/cursors/cursor-default.png'), default !important;
 }

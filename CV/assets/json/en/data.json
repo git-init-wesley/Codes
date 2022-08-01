@@ -1,68 +1,68 @@
 {
-  "header-subtitle-1": "Développeur Autodidacte",
-  "header-subtitle-2": "{AGE} ans - Permis B",
-  "temps": "Contrat d’apprentissage - Rythme : 3 semaines en entreprise / 1 semaine en école \nFormation éligible à l’Aide Exceptionnelle de 8000€",
-  "column-left-description": "Autonome, dynamique et motivé, je suis à la recherche d'une nouvelle expérience professionnelle afin de développer davantage mes compétences.",
+  "header-subtitle-1": "Self-taught Developer",
+  "header-subtitle-2": "{AGE} years old - Driving license B",
+  "temps": "Apprenticeship contract - Rhythm: 3 weeks in the company / 1 week in school\nTraining eligible for Exceptional Aid of 8000$",
+  "column-left-description": "Autonomous, dynamic and motivated, I am looking for a new professional experience to further develop my skills.",
   "column-experiences": [
     {
-      "title": "Freelance / Autodidacte",
+      "title": "Freelance / Self-taught",
       "subtitle": "2013 - 2022",
       "content": [
-        "Création d'application dans le Store",
-        "Création de sites et de logiciels",
-        "Utiliser et maîtriser l'outils Figma",
-        "Initiation aux outils numérique collectif (Github, GitKraken, Jetbrains et Jira, ...)",
-        "Initiation au desktop (SQL, Redis, MongoDB, Flutter)",
-        "Initiation au mobile (Swift, Java, Kotlin, Firebase)",
-        "Initiation au web (HTML, CSS, JS, PHP, SQL)",
-        "Initiation au base (Python)"
+        "Application creation in the Store",
+        "Creation of sites and software",
+        "Use and master the Figma tool",
+        "Initiate to collective digital tools (Github, GitKraken, Jetbrains and Jira, ...)",
+        "Initiate to desktop (SQL, Redis, MongoDB, Flutter)",
+        "Initiate to mobile (Swift, Java, Kotlin, Firebase)",
+        "Initiate to web (HTML, CSS, JS, PHP, SQL)",
+        "Initiate to basics (Python)"
       ]
     },
     {
-      "title": "Technicien informatique",
-      "subtitle": "UTIL | Anzin | Février 2019",
+      "title": "IT Technician",
+      "subtitle": "UTIL | Anzin | February 2019",
       "content": [
-        "Visualiser et pratiquer dans les baies",
-        "Utilisation et configuration de Switch",
-        "Utilisation et configuration de pfSense"
+        "Visualize and practice in bays",
+        "Using and Configuring Switch",
+        "Using and Configuring pfSense"
       ]
     }
   ],
   "column-formations": [
     {
-      "title": "Développeur Full-Stack",
+      "title": "Full-Stack Developer",
       "subtitle": "3W Academy | Lille | 2022-2023",
       "content": [
-        "Spécialisation React.js",
-        "Spécialisation Symfony"
+        "React.js Specialization",
+        "Symfony Specialization"
       ]
     },
     {
-      "title": "Chaudron",
-      "subtitle": "3W Academy | Lille | Juillet 2022",
+      "title": "Cauldron",
+      "subtitle": "3W Academy | Lille | July 2022",
       "content": [
-        "Certification Tosa PHP Avancé (767/1000)",
-        "Intégration web (HTML5 / CSS3 / JS)"
+        "Tosa Advanced PHP Certification (767/1000)",
+        "Web integration (HTML5 / CSS3 / JS)"
       ]
     },
     {
-      "title": "Brevet des collèges",
+      "title": "College diploma",
       "subtitle": "Felix Del Marle | Aulnoye | 2014-2019",
       "content": [
-        "Mention \"Très bien\""
+        "Honors"
       ]
     }
   ],
   "skills": [
-    "Développement Web",
-    "Développement Mobile",
-    "Développement Desktop",
-    "Analyse structurelle",
-    "Architecture MVC",
-    "Méthodologie Agile",
-    "Maîtrise des Outils (Git, Jira, IDE, ...)",
-    "Résolutation de problèmes",
-    "Français / Anglais"
+    "Web development",
+    "Mobile Development",
+    "Desktop Development",
+    "Structural Analysis",
+    "MVC-Architecture",
+    "Agile Methodology",
+    "Mastery of Tools (Git, Jira, IDE, ...)",
+    "Problem Solving",
+    "French English"
   ],
   "techniques": [
     "html5",
@@ -85,14 +85,14 @@
     "desktop"
   ],
   "hobbies": [
-    "Informatique",
-    "Programmation",
-    "Technologie",
-    "Lecture",
+    "Computer science",
+    "Programming",
+    "Technology",
+    "Reading",
     "Manga",
-    "Musique",
-    "Paysage",
-    "Montagne"
+    "Music",
+    "Countryside",
+    "Mountain"
   ],
   "contact": {
     "mail": "mailpro.levasseur@icloud.com",
@@ -102,12 +102,12 @@
     "address": "1 Place du Dr Guersant, CCAS AULNOYE-AYMERIES, FRANCE, 59620"
   },
   "language": {
-    "download": "Télécharger",
-    "skills": "Compétences",
-    "techniques": "Techniques",
-    "hobbies": "Centres d'intérêt",
+    "download": "Download",
+    "skills": "Skills",
+    "techniques": "Technics",
+    "hobbies": "Hobbies",
     "contact": "Contact",
-    "experiences": "Expériences",
+    "experiences": "Experiences",
     "formations": "Formations"
   }
 }

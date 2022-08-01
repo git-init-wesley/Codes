@@ -39,11 +39,11 @@ main {
     }
 }
 
-main[clean=false] {
+body[theme='default'] main {
     background: var(--page-background)
 }
 
-main[clean=true] {
+body[theme='clean'] main {
     background: var(--page-background-clean)
 }
 
