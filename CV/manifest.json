@@ -1,0 +1,39 @@
+{
+  "name": "Wesley Levasseur | CV",
+  "short_name": "Wesley Levasseur | CV",
+  "author": "Wesley Levasseur",
+  "description": "Ce site vous permet de visualiser mon CV et de le télécharger, plusieurs thèmes et langues sont disponibles.",
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "3wa",
+    "project"
+  ],
+  "license": "CC-BY-NC-ND 4.0",
+  "start_url": "./",
+  "display": "standalone",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "./assets/img/japan.jpg",
+      "sizes": "564x705",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "./assets/img/icons.png",
+      "sizes": "200x200",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/cursor-default.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/cursor-hover.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}
